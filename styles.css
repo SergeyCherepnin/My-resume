@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+
+body {
+  font-family: "Jost";
+  font-size: 20px;
+  color: #253452;
+  background: url(images/neutral.jpg);
+}
+
+h3 {
+  text-decoration: underline;
+  margin-top: 5px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 30px;
+}
+
+.image {
+  width: 80%;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+  padding: 0.5em;
+  margin-bottom: 1em;
+}
+
+.card {
+  border: 1px solid grey;
+  border-radius: 20px;
+  background: #f4f7f9;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.info p {
+  margin: 0px;
+}
+
+.btn {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #253452;
+  color: #f1f4fa;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+a {
+  text-decoration: none;
+  color: slateblue;
+  transition: all 0.2s;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: underline;
+  font-size: 1.5rem;
+}
+
+.list ul {
+  padding-left: 0px;
+}
+
+.list {
+  list-style-type: none;
+  display: inline-flex;
+}
+
+li h1 {
+  margin-top: 80px;
+  margin-bottom: 0;
+}
+
+li p {
+  margin: 0;
+}
+
+li h4 {
+  margin-top: 80px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 10px;
+  }
+
+  .list {
+    display: block;
+  }
+
+  li h1 {
+    margin-top: 20px;
+  }
+
+  li h4 {
+    margin-top: 20px;
+  }
+
+  .list {
+    padding-left: 0;
+    text-align: center;
+  }
+}

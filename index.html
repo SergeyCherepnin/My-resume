@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="Sergey Cherepnin, resume, Java, html, css, Spring, tags"
+    />
+    <meta name="description" content="Страница - резюме" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="table.css" />
+    <link rel="stylesheet" href="form.css" />
+    <title>My resume</title>
+  </head>
+  <body>
+    <div class="container">
+      <ul class="list">
+        <li>
+          <img class="image" src="images/my_face.jpg" alt="My photo" />
+        </li>
+        <li>
+          <h1>Сергей Черепнин</h1>
+          <p>Начинающий Java-разработчик</p>
+          <h4>Мои соцсети:</h4>
+          <a href="https://vk.com/cherepnin_sv" target="_blank">Вконтакте</a>
+          |
+          <a href="https://career.habr.com/sergey_cherepnin" target="_blank"
+            >Хабр Карьера</a
+          >
+          |
+          <a href="https://instagram.com/cherepninserg" target="_blank"
+            >Instagram</a
+          >
+        </li>
+      </ul>
+
+      <hr noshade="" />
+      <div class="info">
+        <p>
+          Начинающий Java разработчик. Изучаю Java уже почти 2 года. Учился на
+          курсах от JavaRush, где было решено более 900 задач и небольших
+          консольных приложений c использованием<strong>
+            Collections, Mltithreading, немного Stream API.</strong
+          >
+        </p>
+        Использовал на практике технологии и фреймворки:
+        <ul>
+          <li><em>Maven</em></li>
+          <li><em>Git</em></li>
+          <li><em>Spring Boot</em></li>
+          <li><em>Spring Security</em></li>
+          <li><em>Hibernate</em></li>
+          <li><em>MySQL</em></li>
+          <li><em>PostgreSQL</em></li>
+          <li><em>BootsTrap</em></li>
+        </ul>
+        <p>Прошел виртуальную стажировку от СБЕР.</p>
+        <p>Готов развиваться, совершенствовать свои hard и soft скиллы.</p>
+      </div>
+      <hr noshade="" />
+      <div class="card">
+        <h3>Пройденные курсы, стажировки:</h3>
+        <table>
+          <thead>
+            <th>Название</th>
+            <th>Компания</th>
+            <th>Год</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Курс Java</td>
+              <td>JavaRush</td>
+              <td>2020-2022</td>
+            </tr>
+            <tr>
+              <td>Виртуальная стажировка</td>
+              <td>СБЕР</td>
+              <td>2022</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <hr noshade="" />
+      <div class="card">
+        <h3>Мои хобби:</h3>
+        <ul>
+          <li>Кино</li>
+          <li>Видеоигры</li>
+          <li>Путешествия</li>
+        </ul>
+      </div>
+      <hr noshade="" />
+      <div class="card">
+        <h3>Связаться со мной:</h3>
+        <form action="/" class="form">
+          <div class="form-row">
+            <div class="form-label">
+              <label for="name">Имя</label>
+              <input type="text" id="name" placeholder="Введите Ваше имя" />
+            </div>
+            <div class="form-label">
+              <label for="email">Эл. почта</label>
+              <input type="email" id="email" placeholder="Введите Ваш email" />
+            </div>
+          </div>
+          <div class="form-label">
+            <label for="messsage">Ваше сообщение</label>
+            <textarea
+              id="messsage"
+              cols="40"
+              rows="8"
+              placeholder="Введите Ваше сообщение"
+            ></textarea>
+          </div>
+          <div>
+            <button class="btn" type="submit">Отправить</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
